@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: green;
+}
+
+button {
+  margin: 0.1em;
+  border: 1px solid white;
+}
+
+h1,
+p {
+  font-family: monospace, Courier, 'Courier New';
+}
