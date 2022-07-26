@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Title from './callbackComponents/title';
-import Count from './callbackComponents/count';
-import Button from './callbackComponents/button';
+import Title from './title';
+import Count from './count';
+import Button from './button';
 
 function ParentComponent() {
   const [age, setAge] = useState(25);

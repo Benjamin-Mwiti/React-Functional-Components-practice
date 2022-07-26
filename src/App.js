@@ -13,6 +13,7 @@ import ReducerCounterOne from './components/reducerCounterOne';
 import ReducerCounterTwo from './components/reducerCounterTwo';
 import ReducerCounterThree from './components/reducerCounterThree';
 import ReducerDataFetcher from './components/reducerDataFetcher';
+import ParentComponent from './callbackComponents/parentComponent';
 
 export default function App() {
   return (
@@ -30,7 +31,8 @@ export default function App() {
       {/* <ReducerCounterOne />
       <ReducerCounterTwo />
       <ReducerCounterThree /> */}
-      <ReducerDataFetcher />
+      {/* <ReducerDataFetcher /> */}
+      <ParentComponent />
     </div>
   );
 }
