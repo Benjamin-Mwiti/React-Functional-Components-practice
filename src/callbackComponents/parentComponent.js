@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Title from './callbackComponents/title';
+import Count from './callbackComponents/count';
+import Button from './callbackComponents/button';
 
 function ParentComponent() {
   const [age, setAge] = useState(25);
@@ -16,6 +18,10 @@ function ParentComponent() {
   return (
     <div>
       <Title />
+      <Count text="Age" count={age} />
+      <Button handleClick={incrementAge}>Increment Age</Button>
+      <Count text="Salary" count={salary} />
+      <Button handleClick={incrementSalary}>Increment Salary</Button>
     </div>
   );
 }
