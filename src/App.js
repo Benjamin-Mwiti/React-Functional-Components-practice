@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Hello from './components/hello';
 import Counter from './components/counter';
 import CounterTwo from './components/counterTwo';
 import CounterThree from './components/counterThree';
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <div>
       <h1>React JS Functional Components</h1>
+      <Hello />
       {/* <Counter /> */}
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
@@ -32,7 +34,7 @@ export default function App() {
       <ReducerCounterTwo />
       <ReducerCounterThree /> */}
       {/* <ReducerDataFetcher /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
     </div>
   );
 }
